@@ -1,0 +1,29 @@
+<span class="badge bg-success" *ngIf="Alert" style="width: 50%;">Bien Enregister</span>
+<form class="container d-flex justify-content-center" [formGroup]="angForm" (ngSubmit)="postReservation()">
+  <fieldset>
+    <button (click)="onClose()" type="button" style="background-color: transparent; border: none; padding: 0; display: flex; align-items :end;" aria-label="Close">
+      <i class="fa-regular fa-circle-xmark" style="color: red; font-size: 20px;"></i>
+    </button>
+        <legend>ADD Reservations</legend>
+  <div class="form-group">
+    <label class="form-label mt-4" for="personName">Nom Prenom:</label>
+    <input class="form-control" id="personName" formControlName="personName">
+  </div>
+
+  <div class="form-group">
+    <label class="form-label mt-4" for="qte">Qte:</label>
+    <input class="form-control" id="qte" type="number" formControlName="qte">
+  </div>
+  <div class="form-group">
+    <label class="form-label mt-4" for="deviceIds" >Select Device:</label>
+    <br>
+    <select data-mdb-select-init multiple id="deviceIds" formControlName="deviceIds">
+      <option value="" disabled selected> Désignation - CAB</option>
+      <option *ngFor="let device of DeviceNotReserved" [value]="device.id">
+        {{ device.name }} ({{ device.numeroSerie }})
+      </option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary" style="margin: 30px;" [disabled]="angForm.invalid">Enregister</button>
+</fieldset>
+</form>

@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\dto\\devicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:dto\\devicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\models\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:models\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\models\\addreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:models\\addreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|c:\\users\\superelectro\\source\\repos\\stockmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E96373D5-4C53-4FA2-A655-AC6A50C265C9}|StockManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\DTO\\DeviceDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\DeviceDTO.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\DTO\\DeviceDTO.cs",
+              "RelativeToolTip": "DTO\\DeviceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:00:43.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddDevice.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\AddDevice.cs",
+              "RelativeDocumentMoniker": "Models\\AddDevice.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\AddDevice.cs",
+              "RelativeToolTip": "Models\\AddDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:00:31.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "Models\\Device.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\Device.cs",
+              "RelativeToolTip": "Models\\Device.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:30:46.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:52:55.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Data\\dbcontext.cs",
+              "RelativeDocumentMoniker": "Data\\dbcontext.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Data\\dbcontext.cs",
+              "RelativeToolTip": "Data\\dbcontext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:35:12.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddReservation.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\AddReservation.cs",
+              "RelativeDocumentMoniker": "Models\\AddReservation.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Models\\AddReservation.cs",
+              "RelativeToolTip": "Models\\AddReservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:02:42.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "Controllers\\DeviceController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:56:41.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAF8AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:52:08.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\StockManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T12:16:24.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

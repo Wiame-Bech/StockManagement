@@ -1,0 +1,39 @@
+<form
+  class="container d-flex justify-content-center"
+  method="POST"
+  [formGroup]="angForm"
+  (ngSubmit)="postdata(angForm)"
+  autocomplete="off"
+>
+  <fieldset>
+    <button
+      (click)="onClose()"
+      type="button"
+      style="background-color: transparent; border: none; padding: 0; display: flex; align-items: end;"
+      aria-label="Close"
+    >
+      <i class="fa-regular fa-circle-xmark" style="color: red; font-size: 20px;"></i>
+    </button>
+    <legend>ADD Devices</legend>
+
+    <div class="form-group">
+      <label class="form-label mt-4 text-center">Device Name</label>
+      <input type="text" class="form-control" name="name" formControlName="name" autocomplete="off" [class.is-invalid]="name?.touched && name?.invalid"/>
+      <div *ngIf="name?.touched && name?.invalid" class="text-danger">
+        <div *ngIf="name?.errors?.['required']">Device name is required.</div>
+        <div *ngIf="name?.errors?.['pattern']">Device name must only contain letters.</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label mt-4">CAB</label>
+      <input type="number" class="form-control" name="numeroSerie" formControlName="numeroSerie" autocomplete="off" [class.is-invalid]="numeroSerie?.touched && numeroSerie?.invalid"/>
+      <div *ngIf="numeroSerie?.touched && numeroSerie?.invalid" class="text-danger">
+        <div *ngIf="numeroSerie?.errors?.['required']" style="color: red;">CAB is required.</div>
+        <div *ngIf="numeroSerie?.errors?.['pattern']">CAB must only contain numbers.</div>
+      </div>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary" style="margin-bottom: 30px;" [disabled]="angForm.invalid">Enregister</button>
+  </fieldset>
+</form>

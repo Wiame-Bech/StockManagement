@@ -1,0 +1,26 @@
+<table class="table table-hover" style="width: 800px; margin:100px 250px;">
+  <thead>
+    <tr><button (click)="PopUp()" style="border: none; background-color: transparent; font-size: 20px;"><i class="fa-solid fa-plus" style="color : blue"></i></button></tr>
+    <tr>
+      <th class="table-active" >Nom Prenom</th>
+      <th class="table-active">Qte</th>
+      <th class="table-active">Désignation - CAB</th>
+      <th class="table-active" style="padding-right: 25px;">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let reservation of Reservations">
+      <td>{{ reservation.personName }}</td>
+      <td>{{ reservation.qte }}</td>
+      <td>
+        <span *ngFor="let device of reservation.devices; let i = index">
+          {{ device.name }} ({{ device.numeroSerie }})<span *ngIf="i < reservation.devices.length - 1">, </span>
+        </span>
+      </td>
+      <td>
+        <a (click)="Edit(reservation.reservationID)"><i class="fa-solid fa-pen-to-square" style="margin-right: 9px; color: green;"></i></a>
+        <a (click)="delete(reservation.reservationID)"><i class="fa-solid fa-trash" style="color: red;"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>

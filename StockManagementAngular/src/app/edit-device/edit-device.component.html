@@ -1,0 +1,20 @@
+<form class="container d-flex justify-content-center" method="POST" [formGroup]="angForm"  autocomplete="off" (ngSubmit)="onSave()">
+  <fieldset>
+    <button (click)="onClose()" type="button" style="background-color: transparent; border: none; padding: 0; display: flex; align-items :end;" aria-label="Close">
+      <i class="fa-regular fa-circle-xmark" style="color: red; font-size: 20px;"></i>
+    </button>
+        <legend>Edit Devices</legend>
+  <div class="row">
+  </div>
+  <div class="form-group">
+    <label class="form-label mt-4 text-center">Device Name</label>
+    <input type="text" class="form-control" name="name" formControlName="name" autocomplete="off" />
+  </div>
+  <div class="form-group">
+    <label class="form-label mt-4">CAB</label>
+    <input type="text" class="form-control" name="numeroSerie" formControlName="numeroSerie" autocomplete="off">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary" style="margin-bottom: 30px;">Enregister</button>
+</fieldset>
+</form>
